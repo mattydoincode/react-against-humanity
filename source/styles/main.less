@@ -1,0 +1,43 @@
+@import "normalize.less";
+//@import "./bootstrap/bootstrap.less";
+
+
+.background {
+}
+
+.tile {
+	width: 100%;
+	float: left;
+	padding: 80px 50px;
+	font-size: 40px;
+	border-bottom: 1px solid #ccc;
+	&:first-child {
+		border-top: 1px solid #ccc;
+	}
+	vertical-align: center;
+	box-sizing: border-box;
+	&.title {
+		padding: 40px 50px;
+		text-align: center;
+		font-weight: bold;
+	}
+	&.button {
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-size: 60px;
+	}
+	&.with-button {
+		width: 75%;
+	}
+	&.play-button {
+		width: 25%;
+		background-color: blue;
+		color: white;
+	}
+}
+
+.height-full {
+	position: fixed;
+	height: 100%;
+}
